@@ -288,22 +288,17 @@
         <h1 class="smaller margin-bottom-2 ae-1">Stop & Say Hello.</h1>
         <p class="large margin-bottom-4 ae-2"><span class="opacity-8">Have a project you want to get started or just to chat. Shoot me a email and I'll get it done!</span></p>
         <div class="form-55 fix-5-12">
-          <div class="pad padding-top-2 shadow left selected ae-3">
-            <form action="ajax-email.php" id="contact-form" method="post" class="slides-form wide" data-ajax-form="true">
-              <ul class="flex noSpaces">
-                <li class="col-6-12 form-55-input-1">
-                  <div class="label ae-5"><label class="left opacity-6" for="name55">Your name</label></div>
-                  <input class="rounded wide ae-6" id="name55" type="name" name="name" placeholder="Name" required>
-                </li>
-                <li class="col-6-12 form-55-input-2">
-                  <div class="label ae-5"><label class="left opacity-5" for="email55">Email address</label></div>
-                  <input class="rounded wide ae-6" id="email55" type="email" name="email" placeholder="Email" required>
-                </li>
-              </ul>
-              <div class="label ae-8"><label class="opacity-5" for="message55">Message</label></div>
-              <textarea class="rounded left wide ae-9" id="message55" type="text" name="message" placeholder="Message" required></textarea>
-              <button type="submit" class="button wide blue rounded ae-10 cropBottom margin-top-2" data-success-text="Done!" data-success-class="message-sent" name="button">Send message</button>
-            </form>
+          
+               <form action="mailto:bcombs109@gmail.com" method="post" enctype="text/plain">
+                     Name:<br>
+                <input type="text" name="name"><br>
+                     E-mail:<br>
+                  <input type="text" name="mail" size="45"><br>
+                     Message:<br>
+                  <input type="text" name="message" size="75"><br><br>
+                   <input type="submit" value="Send">
+                  <input type="reset" value="Reset">
+                   </form>
           </div>
         </div>
 
